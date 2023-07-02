@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(223, 148, 37);
+}
+.Linha{
+    float: left;
+    width: 33.33%;
+    .row::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
+.Evolua2 {
+    border-radius: 100px;
+    min-width: 300px;
+    min-height: 300px;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
